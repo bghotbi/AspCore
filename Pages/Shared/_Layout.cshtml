@@ -10,13 +10,14 @@
 </head>
 @{
     @inject IConfiguration _config
-    var navcolor = _config["config:navColor"];
+    var navcolor = _config["config:NavColor"];
+    var envName = _config["config:EnvName"];
 }
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container" style="background-color:@navcolor;">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">AspCore</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">@envName</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

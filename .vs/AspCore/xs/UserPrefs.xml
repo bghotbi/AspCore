@@ -1,3 +1,31 @@
 ﻿<Properties StartupConfiguration="{F769B11E-4C6D-4D46-843A-D033C86A4288}|https">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Program.cs" Line="25" Column="1" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="Pages/Shared/_Layout.cshtml" />
+      <File FileName="Pages/Index.cshtml" />
+      <File FileName="Pages/_ViewImports.cshtml" />
+      <File FileName="appsettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AspCore" expanded="True">
+            <Node name="AspCore" expanded="True">
+              <Node name="ConnectedServicesFolder" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AspCore PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
