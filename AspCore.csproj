@@ -10,9 +10,19 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
   <ItemGroup>
     <None Remove="Microsoft.WindowsAzure.ConfigurationManager" />
+    <None Remove="Controlers\" />
+    <None Remove="Repository\" />
+    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.WindowsAzure.ConfigurationManager" Version="3.2.3" />
     <PackageReference Include="Azure.Data.AppConfiguration" Version="1.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controlers\" />
+    <Folder Include="Repository\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>
