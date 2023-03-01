@@ -1,0 +1,20 @@
+@page
+@model ProductsModel
+
+@inject AspCore.Repository.IProductRepository _repo
+
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+
+    <ul>
+    @foreach (var item in _repo.GetAll())
+    {
+        <li>
+            @item.Id 
+            @item.Name
+            @item.Price
+            @item.Description
+        </li>
+    }
+</ul>
+</div>
